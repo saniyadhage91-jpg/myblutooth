@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Shopcart</title>
+<link rel="stylesheet" href="style2.css">
+
+<!-- Icons -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- TOP BAR -->
+
+<div class="topbar">
+    <div class="phone">
+        <i class="fa fa-phone"></i> +001234567890
+    </div>
+
+    <div class="offer">
+        Get 50% Off on selected items | Shop Now
+    </div>
+
+    <div class="lang">
+        Eng ▾ &nbsp;&nbsp; Location ▾
+    </div>
+</div>
+
+
+<!-- NAVBAR -->
+
+<div class="navbar">
+
+<div class="logo">
+<i class="fa fa-shopping-cart"></i> <b>Shopcart</b>
+</div>
+
+<ul class="menu">
+<li>Categories ▾</li>
+<li>Deals</li>
+<li>What's New</li>
+<li>Delivery</li>
+</ul>
+
+<div class="search">
+<input type="text" placeholder="Search...">
+</div>
+
+<div class="icons">
+<i class="fa fa-user"></i> Account
+<i class="fa fa-shopping-cart"></i> Cart
+</div>
+
+</div>
+
+
+<!-- BANNER -->
+
+<div class="banner">
+
+<div class="banner-text">
+
+<h2>Grab Upto 50% Off On<br>Selected Headphone</h2>
+
+<button>Buy Now</button>
+
+</div>
+
+<div class="banner-img">
+<img src="Headphone.png">
+</div>
+
+</div>
+
+
+<!-- FILTER BAR -->
+
+<div class="filters">
+
+<span>Headphone Type ▾</span>
+<span>Price ▾</span>
+<span>Review ▾</span>
+<span>Color ▾</span>
+<span>Material ▾</span>
+<span>Offer ▾</span>
+<span>All Filters</span>
+
+<button class="sort">Sort By ▾</button>
+
+</div>
+
+
+<!-- PRODUCT SECTION -->
+
+<h2 class="title">Headphones For You!</h2>
+
+<div class="products">
+
+<!-- PRODUCT 1 -->
+
+<div class="card">
+
+<i class="fa fa-heart wish"></i>
+
+<img src="headphone.jpg">
+
+<h3>Wireless Headphone</h3>
+
+<p class="price">Rs.999</p>
+
+<div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-alt"></i>
+</div>
+<button class="buy">Buy Now</button>
+<button class="cart">Add to Cart</button>
+
+</div>
+
+
+<!-- PRODUCT 2 -->
+
+<div class="card">
+
+<i class="fa fa-heart wish"></i>
+
+<img src="wirelessearbuds.jpg">
+
+<h3>Wireless Earbuds</h3>
+
+<p class="price">Rs.999</p>
+
+<div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-alt"></i>
+</div>
+<button class="buy" onclick="showProduct('Wireless Headphone','Rs.999')">Buy Now</button>
+<button class="cart">Add to Cart</button>
+
+</div>
+
+
+<!-- PRODUCT 3 -->
+
+<div class="card">
+
+<i class="fa fa-heart wish"></i>
+
+<img src=" headphoneprmax.jpg">
+
+<h3>Headphone Pro Max</h3>
+
+<p class="price">Rs.1499</p>
+
+<div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+</div>
+<button class="buy">Buy Now</button>
+<button class="cart">Add to Cart</button>
+
+</div>
+
+
+<!-- PRODUCT 4 -->
+
+<div class="card">
+
+<i class="fa fa-heart wish"></i>
+
+<img src="ultra2.jpg">
+
+<h3>VIVEFOX Headphone</h3>
+
+<p class="price">Rs.1299</p>
+
+<div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-alt"></i>
+</div>
+<button class="buy">Buy Now</button>
+<button class="cart">Add to Cart</button>
+
+</div>
+<div class="card">
+
+<i class="fa fa-heart wish"></i>
+
+<img src="JBL.jpg">
+
+<h3>JBL Tune 600BTNC</h3>
+
+<p class="price">Rs.799</p>
+
+<div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-alt"></i>
+</div>
+<button class="buy">Buy Now</button>
+<button class="cart">Add to Cart</button>
+
+</div>
+<div class="card">
+
+<i class="fa fa-heart wish"></i>
+
+<img src="TAGRY.jpg">
+
+<h3>TAGRY Bluetooth</h3>
+
+<p class="price">Rs.6999</p>
+
+<div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-alt"></i>
+</div>
+<button class="buy">Buy Now</button>
+<button class="cart">Add to Cart</button>
+
+</div>
+<div class="card">
+
+<i class="fa fa-heart wish"></i>
+
+<img src="Monster.jpg">
+
+<h3>Monster MNFLEX</h3>
+
+<p class="price">Rs.1199</p>
+
+<div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-alt"></i>
+</div>
+<button class="buy">Buy Now</button>
+<button class="cart">Add to Cart</button>
+
+</div>
+<div class="card">
+
+<i class="fa fa-heart wish"></i>
+
+<img src="CH6.jpg">
+
+<h3>Mpow CH6</h3>
+
+<p class="price">Rs.849</p>
+
+<div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-alt"></i>
+</div>
+<button class="buy">Buy Now</button>
+<button class="cart">Add to Cart</button>
+</div>
+
+<h2 class="title">Similar Items You Might Like!</h2>
+<div class="products">
+
+<div class="card">
+<i class="fa fa-heart wish"></i>
+<img src="Gaming.jpg">
+<h3>Gaming Headphone</h3>
+<p class="price">Rs.799</p>
+
+<div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-alt"></i>
+</div>
+<button class="buy">Buy Now</button>
+<button class="cart">Add to Cart</button>
+</div>
+
+<div class="card">
+
+<i class="fa fa-heart wish"></i>
+
+<img src="Macbook.jpg">
+
+<h3>Macbook 13 pro</h3>
+
+<p class="price">Rs.140000</p>
+
+<div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-alt"></i>
+</div>
+<button class="buy">Buy Now</button>
+<button class="cart">Add to Cart</button>
+
+</div>
+<div class="card">
+
+<i class="fa fa-heart wish"></i>
+
+<img src="pod.jpg">
+
+<h3>Homepad mini</h3>
+
+<p class="price">Rs.499</p>
+
+<div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-alt"></i>
+</div>
+<a class="buy">Buy Now</a>
+<button class="cart">Add to Cart</button>
+
+</div>
+<div class="card">
+
+<i class="fa fa-heart wish"></i>
+
+<img src="sleeve.jpg">
+
+<h3>Laptop Sleeve Macbook</h3>
+
+<p class="price">Rs.299</p>
+
+<div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-alt"></i>
+</div>
+<a class="buy" href="sleeve.html">Buy Now</a>
+<button class="cart">Add to Cart</button>
+
+</div>
+</div>
+</div>
+
+
+</div>
+
+
+</div>
+</body>
+</html>
